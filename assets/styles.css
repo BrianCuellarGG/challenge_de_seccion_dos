@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #080808;
+}
+
+.card_uno {
+  width: 441px;
+  height: 460px;
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: 1px 11px 15px #1314154d;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 85px;
+  flex-direction: column;
+}
+
+.card_uno hr {
+  border-top: 11px solid #080808;
+}
+
+.card_btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-radius: 100%;
+}
+
+.card_btn button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: 1px solid #c9c9c9;
+  font-size: 10px;
+  color: #808080;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_txt {
+  font-weight: bold;
+  color: #222b6b;
+}
+
+.card_valor {
+  display: inline-flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.card_valor button {
+  font-size: 15px;
+  font-weight: bold;
+  color: #131416;
+  border: 1px solid #c9c9c9;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.card_valor button:active {
+  background-color: #ff0099;
+  color: #ededed;
+  box-shadow: 3px 3px 15px #1314159f;
+  border: none;
+}
+
+.card_valor_txt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.card_terms {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.card_terms input {
+  width: 30px;
+  height: 30px;
+  vertical-align: calc(-50%);
+  margin-right: 10px;
+}
+
+.card_submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_submit button {
+  padding: 20px 25px 20px 25px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 80%;
+  color: #222b6b;
+  text-transform: uppercase;
+  border: 1px solid #c2c2c2;
+}
